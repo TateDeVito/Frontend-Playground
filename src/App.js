@@ -1,4 +1,3 @@
-import AnswersMenu from './Components/AnswersMenu';
 import logo from './logo.svg';
 import './App.css';
 
@@ -8,7 +7,6 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <div>
-          <AnswersMenu />
           <ul>
             <li>
               Sign-Up form
