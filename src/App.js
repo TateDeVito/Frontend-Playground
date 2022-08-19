@@ -9,10 +9,10 @@ function App() {
         <div>
           <ul>
             <li>
-              Submission form
+              Sign-Up form
             </li>
             <li>
-              Submission form
+              Item Cart
             </li>
           </ul>
         </div>
