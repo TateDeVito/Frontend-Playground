@@ -6,6 +6,16 @@ function App() {
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
+        <div>
+          <ul>
+            <li>
+              Submission form
+            </li>
+            <li>
+              Submission form
+            </li>
+          </ul>
+        </div>
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
