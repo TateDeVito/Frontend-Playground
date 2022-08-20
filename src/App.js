@@ -2,7 +2,7 @@ import logo from './logo.svg';
 import './App.css';
 import PersistentDrawerLeft from './Components/PersistentDrawerLeft.tsx';
 
-const answersCompleted = ["Sign-Up Form", "Item Cart", "Recipe", "Blog"]
+const answersCompleted = ["Sign-Up Form", "Item Cart", "Recipe", "Blog", "Rainbow Circle", "Navbar"]
 
 function App() {
   return (
