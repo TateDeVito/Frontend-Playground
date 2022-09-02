@@ -14,13 +14,13 @@ const signUpForm =
     <div>
       <h1>Sign Up Form</h1>
       <p><i>Implement a sign up form with the correct labels and inputs, and a Sign Up button.</i></p>
-      <h2 className='test-pass'> 10/10 tests passed </h2>
       <h3>Keys</h3>
       <ul>
         <li>Understand that within a form, you can make certain fields "required"</li>
         <li>You can also add label tags around inputs to add a label to those fields</li>
       </ul>
     </div>
+    <h3>HTML Answer Component</h3>
 <form style={{ backgroundColor: "lightgrey"}}>
   <div>
     <label>Username: 
@@ -48,6 +48,7 @@ const signUpForm =
     <button value="Sign Up" type="submit">Sign Up</button>
   </div>
     </form>
+      <h2 className='test-pass'> 10/10 tests passed </h2>
     </div>
 
 export default function SignUpForm() {
