@@ -1,3 +1,8 @@
+// TODO: 
+// 1. Make it look slightly cleaner - just looks sort of like a side project
+// 2. Add cards that show in the UI when you click the various links 
+// 3. Create a playground esque theme
+
 import './App.css';
 import PersistentDrawerLeft from './Components/PersistentDrawerLeft.tsx';
 import AnswerDisplay from './Components/AnswerDisplay.tsx';
