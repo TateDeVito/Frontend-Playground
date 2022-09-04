@@ -16,7 +16,7 @@ import ListItem from "@mui/material/ListItem";
 import ListItemButton from "@mui/material/ListItemButton";
 import ListItemText from "@mui/material/ListItemText";
 
-const drawerWidth = 240;
+const drawerWidth = 200;
 
 const Main = styled("main", { shouldForwardProp: (prop) => prop !== "open" })<{
   open?: boolean;
@@ -82,10 +82,10 @@ export default function PersistentDrawerLeft(props) {
   return (
     <Box sx={{ display: "flex" }}>
       <CssBaseline />
-      <AppBar color="primary" position="fixed" open={open}>
+      <AppBar color="inherit" position="fixed" open={open}>
         <Toolbar>
           <IconButton
-            color="inherit"
+            color="primary"
             aria-label="open drawer"
             onClick={handleDrawerOpen}
             edge="start"
@@ -93,8 +93,10 @@ export default function PersistentDrawerLeft(props) {
           >
             <MenuIcon />
           </IconButton>
-          <Typography variant="h6" noWrap component="div">
-            FrontEnd Expert Answers Application  
+          <Typography color="primary" variant="h5" noWrap component="div">
+            <b>
+              FrontEnd Expert Answers Application    
+            </b>
           </Typography>
         </Toolbar>
       </AppBar>
