@@ -95,7 +95,7 @@ export default function PersistentDrawerLeft(props) {
           </IconButton>
           <Typography color="primary" variant="h5" noWrap component="div">
             <b>
-              FrontEnd Expert Answers Application    
+              Tate's Frontend Playground 
             </b>
           </Typography>
         </Toolbar>

@@ -10,7 +10,7 @@
 }
 
 .App-header {
-  background-color: rgb(38, 38, 195);
+  background-color: rgb(2, 179, 248);
   color: white;
   min-height: 100vh;
   display: flex;
@@ -35,17 +35,21 @@
 
 h2 {
   font-size: 85px;
+  color: white;
 }
 
 .block-text {
   width: 75%; 
   max-width: 75%;
   color: white;
+  text-align: center;
+  margin: auto;
 }
 
 .fine-print {
   font-size: 15px;
   text-decoration: italic;
+  color: white;
 }
 
 a {
