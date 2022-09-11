@@ -5,9 +5,11 @@ import MainPage from './Components/MainPage.tsx';
 import SignUpForm from './Components/HTML/SignUpForm/SignUpForm.tsx';
 import Recipe from './Components/HTML/Recipe/Recipe.tsx';
 import ItemCart from './Components/HTML/ItemCart/ItemCart.tsx';
+import BlogPost from './Components/HTML/BlogPost/BlogPost.tsx';
 
 const answersCompleted = [{ title: "Sign-Up Form", url: '/signup-form' },
-{ title: "Item Cart", url: '/item-cart' }
+  { title: "Item Cart", url: '/item-cart' },
+  { title: "Blog Post", url: '/blog-post' }
   // { title: 'Recipe', url: '/recipe' }
 ]
 // TODO: "Item Cart", "Blog", "Rainbow Circle", "Navbar"
@@ -23,6 +25,7 @@ function App() {
             <Route path="signup-form" element={<SignUpForm />} />
             <Route path="recipe" element={<Recipe />} />
             <Route path="item-cart" element={<ItemCart />} />
+            <Route path="blog-post" element={<BlogPost />} />
           </Routes>
         </BrowserRouter>
         <footer className="fine-print">Many of these examples are my own answers and come from the <a href="https://www.algoexpert.io/frontend/product">FrontEnd Expert</a> course from <a href="https://www.algoexpert.io/product">AlgoExpert.io</a> unless stated otherwise.</footer>
