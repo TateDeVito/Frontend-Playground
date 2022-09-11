@@ -38,6 +38,15 @@ h2 {
   color: white;
 }
 
+.main-link:link {
+  text-decoration: none;
+}
+
+.main-link:hover {
+  text-decoration: none;
+  color:rgb(225, 151, 225)
+}
+
 .block-text {
   width: 75%; 
   max-width: 75%;

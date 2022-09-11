@@ -15,6 +15,7 @@ import ChevronRightIcon from "@mui/icons-material/ChevronRight";
 import ListItem from "@mui/material/ListItem";
 import ListItemButton from "@mui/material/ListItemButton";
 import ListItemText from "@mui/material/ListItemText";
+import Link from '@mui/material/Link';
 
 const drawerWidth = 200;
 
@@ -93,7 +94,7 @@ export default function PersistentDrawerLeft(props) {
           >
             <MenuIcon />
           </IconButton>
-          <Typography color="primary" variant="h5" noWrap component="div">
+          <Typography className="main-link" component={Link} href="/" color="primary" variant="h5" noWrap>
             <b>
               Tate's Frontend Playground 
             </b>
@@ -124,10 +125,10 @@ export default function PersistentDrawerLeft(props) {
         </DrawerHeader>
         <Divider />
         <List>
-          {(props.answers).map((text) => (
-            <ListItem key={text} disablePadding>
+          {(props.answers).map((answer) => (
+            <ListItem component={Link} href={answer.url} key={answer.title} disablePadding>
               <ListItemButton>
-                <ListItemText primary={text} />
+                <ListItemText primary={answer.title} />
               </ListItemButton>
             </ListItem>
           ))}
