@@ -1,13 +1,11 @@
-// TODO: 
-// 2. Add cards that show in the UI when you click the various links 
-
 import './App.css';
 import PersistentDrawerLeft from './Components/PersistentDrawerLeft.tsx';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import MainPage from './Components/MainPage.tsx';
 import SignUpForm from './Components/HTML/SignUpForm.tsx';
 
-const answersCompleted = [{ title: "Sign-Up Form", url: '/signup-form' }, "Item Cart", "Recipe", "Blog", "Rainbow Circle", "Navbar"]
+const answersCompleted = [{ title: "Sign-Up Form", url: '/signup-form' }]
+// TODO: "Item Cart", "Recipe", "Blog", "Rainbow Circle", "Navbar"
 
 function App() {
   return (
