@@ -59,6 +59,8 @@ h2 {
   font-size: 15px;
   text-decoration: italic;
   color: white;
+  bottom: 10;
+  margin-top: 10 
 }
 
 a {

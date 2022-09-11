@@ -13,8 +13,8 @@ import './SignUpForm.css';
 
 const signUpForm =
   <>
-    <h2>Sign Up Form</h2>
-    <Card variant='outlined' sx={{ minWidth: 275, height: 620, marginBottom: 20 }}>
+    <h2 style={{ fontSize: 55 }}>Sign Up Form</h2>
+    <Card variant='outlined' sx={{ minWidth: 275, height: 620, marginBottom: 20, marginTop: -3 }}>
       <CardContent>
       <div>
         <h3>Task</h3>
@@ -25,8 +25,8 @@ const signUpForm =
           <li>You can also add label tags around inputs to add a label to those fields</li>
         </ul>
       </div>
-      <h3>HTML Answer Component</h3>
-  <form style={{ backgroundColor: "lightgrey"}}>
+        <h3>HTML Answer Component</h3>
+    <form style={{ backgroundColor: "lightgrey"}}>
     <div>
       <label>Username: 
         <input type="text" required />  
